@@ -1,4 +1,4 @@
-(ns hello-world.core)
+(ns playgrounds.spheres)
 
 (def canvas (js/document.getElementById "canvas"))
 (def ctx (.getContext canvas "2d"))
