@@ -20,7 +20,7 @@
                         (not= ydir :none) [ydir true]
                         (not= xdir :none) [xdir true]
                         :else [dir false])
-        frame (if running (mod (+ frame anim_speed) run_frames) 0)
+        frame (if running (mod (+ frame anim_speed) run_frames) frame)
         run_speed (if (and (not= xdir :none) (not= ydir :none))
                     (/ run_speed 1.414)
                     run_speed)

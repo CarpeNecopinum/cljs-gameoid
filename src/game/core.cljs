@@ -28,7 +28,3 @@
   0)
 
 (game-loop)
-
-(player/update-player (first @*world))
-
-@*world
